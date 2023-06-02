@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'ranade';
+    text-decoration: none;
+}
+
+
+#logo {
+    height:90px;
+    width:300px;
+}
+
+header {
+    background-color: #6AC3C7;
+    height: 246px;
+}
+ 
+header nav {
+    margin: auto;
+}
+ 
+#menu {
+    font-size: 5rem;
+    text-align: center;
+    padding-left: 5%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+ 
+#menu img {
+    margin-bottom: -20px;
+}
+
+
+header li{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+
+/*--------------------------------------------------------- MENU ------------------------------------------------------------------------*/
+
+
+#haut{
+    width: 48%;
+    height: 1620px;
+    border-radius: 259px;
+    position: relative;
+    top: 2549px;
+}
+
+#titre{
+    font-family: 'Anodina';
+    font-size: 20rem;
+    position: relative;
+    top: 1453px;
+    left: 42px;
+}
+
+.team{
+    position: relative;
+    width: 100%;
+    height: 320vh;
+    background: #F18B67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vague-rose{
+    width: 100%;
+    position: relative;
+    top: 3567px;
+}
+
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 3110px auto;
+    display: grid;
+    grid-template-columns: 1309px repeat(auto-fill, 1309px) 1309px;
+    align-items: center;
+    gap: 19rem;
+    text-align: center;
+    margin-top: 4rem;
+    position: relative;
+    top: -665px;
+    left: -1330px;
+}
+
+.team-content img{
+    width: 131%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top: -138px;
+    left: -201px;
+}
+
+
+.center p{
+    color: #fff;
+    font-size: 6rem;
+    text-align: center;
+    position: relative;
+    top: -1106px;
+}
+
+.box{
+    height: 1751px;
+    padding: 27px;
+    background: linear-gradient(rgba(241,139,103), rgba(213,211,66));
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+
+.box h2{
+    font-size: 96px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+    position: relative;
+    top: -348px;
+}
+
+.box h3{
+    font-size: 52px;
+    font-weight: 600;
+    color: #FACD91;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    position: relative;
+    top: -344px;
+} 
+
+.box h2 :hover{
+    transform: scale(1.2);
+}
+
+.box h2 :hover{
+    color: #F18B67;
+}
+.box :hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+@media(max-width: 1240px){
+    .team{
+        width: 100%;
+        height: auto;
+        padding: 90px 2%;
+    }
+
+    .center p{
+        font-size: 3.2rem;
+    }
+}
+
+/*--------------------------------------------------------- FOOTER ------------------------------------------------------------------------*/
+
+footer {
+    background-color: #6AC3C7;
+    display: inline-flex;
+    font-size: 90%;
+    display: flex;
+    font-family: "roboto";
+    font-size: 16px;
+}
+
+
+.footer_logo{
+    width: 33%;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.footer_logo img{
+    height:90px;
+    width:300px;
+}
+
+
+.footer_chalew{
+    width: 16%;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 60px;
+}
+
+
+.footer_chalew p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+
+
+.footer_chalew img{
+    height:32%;
+    width:20%;
+}
+
+
+.footer_chalew img:hover{
+    transform: scale(2);
+    transition: 0.1s;
+}

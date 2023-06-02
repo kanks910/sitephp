@@ -1,0 +1,10 @@
+
+<?php 
+
+DEFINE('URL', 'file:///Users/kankou/Desktop/SAE%202/site_sae/');
+
+// Paramètres de la base de donées
+DEFINE('DB_HOST','localhost');
+DEFINE('DB_NAME', 'site_sae');
+DEFINE('DB_USER','root');
+DEFINE('DB_PASSWORD', '');

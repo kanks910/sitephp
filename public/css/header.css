@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Anodina';
+    src: url(../fonts/Anodina-Regular.otf);
+}
+
+
+
+#logo {
+    height:90px;
+    width:300px;
+}
+
+header {
+    background-color: #6AC3C7;
+    height: 246px;
+}
+ 
+header nav {
+    margin: auto;
+}
+ 
+#menu {
+    font-size: 5rem;
+    text-align: center;
+    padding-left: 5%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+ 
+#menu img {
+    margin-bottom: -20px;
+}
+
+
+header li{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}

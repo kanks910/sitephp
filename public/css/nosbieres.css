@@ -1,0 +1,158 @@
+* {
+    font-family: anodina;
+    padding: 0;
+	margin: 0;
+}
+
+main {
+    background-color: lavenderblush;;
+    font-size: 21px;
+    box-sizing: border-box;
+}
+
+
+/*--------------------------------------------------------- MENU ------------------------------------------------------------------------*/
+
+#logo {
+  height: 90px;
+  width: 300px;
+
+}
+
+header {
+  background-color: #6ac3c7;
+}
+
+header nav {
+  margin: auto;
+}
+
+#menu {
+  font-size: 23px;
+  text-align: center;
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu img {
+  margin-bottom: 2px;
+}
+
+#connexion_img {
+  width: 40px;
+  height: 40px;
+}
+
+header li {
+  display: inline-block;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+/*--------------------------------------------------------- MAIN ------------------------------------------------------------------------*/
+
+h1 {
+    color: black;
+    font-size: 50px;
+    background-image: url('public/images/elements_graphiques/vague_bleu_jaune_vert.png');
+    border-radius: 20%;
+    background-size: cover;
+    text-align: center;
+    margin-top: 16%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    padding: 15%;
+}
+
+
+#espace {
+    padding: 100px;
+}
+
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#container div {
+    width: 30%;
+    /*background-color: rgba(106,195,199, .4);*/
+    background-color: rgba(106,195,199, .4);
+    border-radius: 50px;
+    margin-right: 1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+
+}
+
+#container img {
+    height: 500px;
+    width: 350px;
+}
+
+p {
+    margin: 0 40px 40px 40px;
+    font-size: 20px;
+}
+h4 {
+    font-size: 15px;
+}
+
+/*--------------------------------------------------------- FOOTER ------------------------------------------------------------------------*/
+
+footer {
+    background-color: #6AC3C7;
+    display: inline-flex;
+    font-size: 90%;
+    display: flex;
+    font-family: "roboto";
+    font-size: 16px;
+}
+
+.footer_logo{
+    width: 33%;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.footer_logo img{
+    height:90px;
+    width:300px;
+}
+
+
+.footer_chalew{
+    width: 16%;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 60px;
+}
+
+
+.footer_chalew p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+.footer_chalew img{
+    height:32%;
+    width:20%;
+}
+
+
+.footer_chalew img:hover{
+    transform: scale(2);
+    transition: 0.1s;
+}
